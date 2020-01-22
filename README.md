@@ -1,2 +1,2 @@
 # pinit
-A Python script for the pinit Discord bot.
+A python script for running the pinit Discord bot.
