@@ -39,13 +39,7 @@ async def stderr(user_id, message, content):
     """
     Error output.
     """
-    user = client.get_user(user_id)
-
-    try:
-        await message.channel.send("%s %s" % (content, user.mention))
-
-    except (discord.HTTPException, discord.Forbidden):
-        await user.send(content)
+    return  # SEE COMMIT
 
 
 @client.event
